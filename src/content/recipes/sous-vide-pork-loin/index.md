@@ -7,7 +7,7 @@ prepTime: "30 min active, 2 hrs hands-off"
 cookTime: "1 hr 30 min"
 servings: "4"
 tags: ["pork", "sous vide", "cast iron", "mushroom", "polenta", "dinner party"]
-featured: false
+featured: true
 nutrition:
   calories: 680
   protein: 52

@@ -7,7 +7,6 @@ prepTime: "5 min"
 servings: "1"
 tags: ["cocktail", "vodka", "martini", "appletini"]
 featured: false
-heroImage: ./hero.webp
 nutrition:
   calories: 200
   protein: 0

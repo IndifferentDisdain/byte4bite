@@ -8,7 +8,6 @@ cookTime: "25 min"
 servings: "2"
 tags: ["pasta", "cajun", "shrimp", "cream sauce", "weeknight"]
 featured: false
-heroImage: ./hero.webp
 nutrition:
   calories: 915
   protein: 54

@@ -7,7 +7,6 @@ prepTime: "5 min"
 servings: "120 (¼ tsp)"
 tags: ["cajun", "seasoning", "spice blend", "pantry"]
 featured: false
-heroImage: ./hero.webp
 ---
 
 This is my everyday Cajun seasoning, and it lives in a spice shaker on my counter at all times. It goes on salmon, steak, shrimp, into chili, dirty rice, tacos, étouffée — anywhere you want depth and a little heat.
