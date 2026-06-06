@@ -1,0 +1,1 @@
+This is an Astro.js site for my personal recipe blog. For new and migrated recipes, always feel free to suggest edits to ingredients, steps, and narrative.
