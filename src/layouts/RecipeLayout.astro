@@ -1,9 +1,12 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 
 interface Props {
   title: string;
   description: string;
+  heroImage?: ImageMetadata;
   category?: string;
   prepTime?: string;
   cookTime?: string;
@@ -12,7 +15,7 @@ interface Props {
   pubDate: Date;
 }
 
-const { title, description, category, prepTime, cookTime, servings, tags, pubDate } = Astro.props;
+const { title, description, heroImage, category, prepTime, cookTime, servings, tags, pubDate } = Astro.props;
 
 const formatted = pubDate.toLocaleDateString('en-US', {
   year: 'numeric', month: 'long', day: 'numeric',
@@ -58,6 +61,19 @@ const formatted = pubDate.toLocaleDateString('en-US', {
       )}
     </div>
   </div>
+
+  <!-- Hero image -->
+  {heroImage && (
+    <div class="w-full max-h-[480px] overflow-hidden">
+      <Image
+        src={heroImage}
+        alt={title}
+        widths={[800, 1200, 1600]}
+        sizes="100vw"
+        class="w-full h-full object-cover"
+      />
+    </div>
+  )}
 
   <!-- Recipe body -->
   <article class="max-w-2xl mx-auto px-6 py-14">

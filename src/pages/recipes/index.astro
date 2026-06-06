@@ -39,6 +39,7 @@ const categories = [...new Set(sorted.map(r => r.data.category).filter(Boolean))
             title={recipe.data.title}
             description={recipe.data.description}
             slug={recipe.slug}
+            heroImage={recipe.data.heroImage}
             category={recipe.data.category}
             prepTime={recipe.data.prepTime}
             cookTime={recipe.data.cookTime}

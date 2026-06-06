@@ -8,6 +8,7 @@ cookTime: "30 min"
 servings: "4"
 tags: ["pasta", "chicken", "sausage", "cream sauce", "weeknight", "italian"]
 featured: false
+heroImage: ./hero.webp
 ---
 
 One of my wife's favorite takeout dishes is the Chicken Bryan from Carrabba's — chicken topped with sundried tomatoes, goat cheese, and a lemon butter sauce. She asked if I could make a pasta version. Challenge accepted.
