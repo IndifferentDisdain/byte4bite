@@ -66,33 +66,31 @@ Fresh herbs go in at the very end — heat degrades them quickly. Dried herbs go
 
 ## Method
 
-1. **Start the sauce** — Heat olive oil in a large Dutch oven or heavy pot over medium heat. Add onion, garlic, and a pinch of salt. Sweat until soft and translucent, about 8 minutes. Adding salt here does two things: it draws moisture out of the vegetables through osmosis, which speeds up softening, and it helps prevent them from burning by keeping them wet.
+1. **Start the sauce** — Heat olive oil in a large Dutch oven or heavy pot over medium heat. Add onion, garlic, and a pinch of salt. Sweat until soft and translucent, about 8 minutes.
 
-2. **Add the wine** — Pour in the red wine and bring to a boil. Wine does more than add flavor — it stops the cooking on the aromatics so they don't burn once the tomatoes go in. It also helps distribute flavor through the sauce: fat-soluble compounds dissolved in the olive oil, water-soluble ones in the wine's water content, and a third category that only dissolves in alcohol. All three bases covered.
+2. **Add the wine** — Pour in the red wine and bring to a boil.
 
-3. **Build the base** — Add both cans of tomatoes, the Italian seasoning, black pepper, and crushed red pepper. Use an immersion blender to break down the whole tomatoes until smooth (optional, but recommended — it creates a more cohesive texture). Cover and simmer over low heat for at least 1 hour, stirring occasionally. The long simmer isn't just for flavor — it's also cooking off water and concentrating the sauce. Add a splash of water if it gets too thick before you're ready.
+3. **Build the base** — Add both cans of tomatoes, the Italian seasoning, black pepper, and crushed red pepper. Use an immersion blender to break down the whole tomatoes (optional, but recommended). Cover and simmer over low heat for at least 1 hour, stirring occasionally. Add a splash of water if the sauce gets too thick.
 
-4. **Mix the meatballs** — In a large bowl, beat the egg, then add the garlic, beef, pork, salt, pepper, Parmigiano Reggiano, breadcrumbs, and parsley. Mix by hand until just incorporated. The egg adds moisture and acts as a binder. The breadcrumbs absorb that moisture and keep the meatballs tender. The danger here is overmixing: the more you work the meat, the more the proteins tighten up, and the result is a dense, rubbery texture — closer to meatloaf than meatball. Stop as soon as everything is combined. Cover and rest for at least 30 minutes (refrigerate if going longer). Resting lets the breadcrumbs fully hydrate and helps the meatballs hold together during searing.
+4. **Mix the meatballs** — In a large bowl, beat the egg, then add the garlic, beef, pork, salt, pepper, Parmigiano Reggiano, breadcrumbs, and parsley. Mix by hand until just incorporated — stop as soon as everything comes together. Cover and rest for at least 30 minutes (refrigerate if going longer).
 
-5. **Form and sear the meatballs** — About 45–60 minutes before serving, heat a cast iron skillet over medium-high heat. Portion the mixture into roughly 1-inch balls — about 25 total. Add canola oil to the hot pan. Canola has a higher smoke point than olive oil, which means it can handle the heat needed to properly brown the outside without burning. Working in batches and leaving at least half an inch between meatballs, sear on all sides until deeply browned, about 2 minutes per side. Don't crowd the pan — crowding traps steam and you get steamed meatballs instead of seared ones. You want a crust, not cooked through; they'll finish in the sauce.
+5. **Form and sear the meatballs** — About 45–60 minutes before serving, heat a cast iron skillet over medium-high heat. Portion the mixture into roughly 1-inch balls — about 25 total. Add canola oil to the hot pan. Working in batches, sear on all sides until deeply browned, about 2 minutes per side. Leave at least half an inch between meatballs.
 
-6. **Finish in the sauce** — Transfer the browned meatballs directly into the simmering tomato sauce. Poaching them in the sauce does two things: it gently finishes cooking the interior without drying them out, and the meatball juices enrich the sauce. They'll need about 15–20 minutes, which is the perfect window to cook the pasta.
+6. **Finish in the sauce** — Transfer browned meatballs into the simmering tomato sauce and cook for 15–20 minutes.
 
-7. **Cook the pasta** — Bring a large pot of heavily salted water to a boil — it should taste like the ocean. Add spaghetti and a small splash of olive oil. The olive oil doesn't prevent sticking (that's a myth), but it does reduce the surface tension of the water, which cuts down on boil-overs. Cook 10–11 minutes, stirring every few minutes. Before draining, reserve about ½ cup of pasta water.
+7. **Cook the pasta** — Bring a large pot of heavily salted water to a boil. Add spaghetti and a splash of olive oil. Cook 10–11 minutes, stirring occasionally. Before draining, reserve about ½ cup of pasta water.
 
-8. **Finish the sauce** — As soon as the pasta goes in, add the fresh parsley, basil, and butter to the sauce. Dried herbs need time to rehydrate and release their flavor, so they go in early. Fresh herbs are the opposite — heat degrades them quickly, so they go in at the very end. The butter adds richness and gives the sauce a silky sheen. Add reserved pasta water a splash at a time to reach your desired consistency — the starch in the water also helps the sauce cling to the pasta.
+8. **Finish the sauce** — As soon as the pasta goes in, add the fresh parsley, basil, and butter to the sauce. Add reserved pasta water a splash at a time to reach your desired consistency.
 
-9. **Taste and adjust** — Don't skip this step. Taste for salt first — it's the most impactful adjustment. Then taste for acid: if the sauce is too tangy, add sugar one teaspoon at a time (usually 1–2 tsp total, sometimes none). Then check pepper and herbs. You're looking for balance, not any one flavor to dominate.
+9. **Taste and adjust** — Taste for salt first. Then acid: if the sauce is too tangy, add sugar one teaspoon at a time (usually 1–2 tsp, sometimes none). Then check pepper and herbs.
 
-10. **Serve** — Plate pasta, ladle on sauce and 3–4 meatballs, and finish with freshly grated Parmigiano Reggiano. Crushed red pepper at the table for those who want heat.
+10. **Serve** — Plate pasta, ladle on sauce and 3–4 meatballs, and finish with freshly grated Parmigiano Reggiano. Crushed red pepper at the table for heat.
 
 ## Notes
 
-Canola oil for searing, not olive oil — it has a higher smoke point and won't burn at the heat you need to get a proper crust on the meatballs.
+One can of tomato sauce and one can of whole San Marzanos is the sweet spot. All San Marzano can lack acid; all standard canned can need more sugar correction. One of each balances itself.
 
-San Marzano tomatoes are less acidic than standard canned tomatoes, which is why the sauce balances more easily. One can of tomato sauce and one can of whole San Marzanos is the sweet spot — all San Marzano can lack acid, all standard can need more sugar correction.
-
-Fresh basil wasn't in my original ingredient list on the old site. Consider this the fix.
+The olive oil in the pasta water doesn't prevent sticking — that's a myth. It reduces surface tension, which cuts down on boil-overs. To prevent sticking, just stir.
 
 ## Riffs
 
