@@ -14,6 +14,14 @@ const recipes = defineCollection({
     servings:    z.string().optional(),
     tags:        z.array(z.string()).optional(),
     featured:    z.boolean().optional().default(false),
+    nutrition: z.object({
+      calories: z.number(),
+      protein:  z.number(),
+      carbs:    z.number(),
+      fat:      z.number(),
+      fiber:    z.number().optional(),
+      sodium:   z.number().optional(),
+    }).optional(),
   }),
 });
 

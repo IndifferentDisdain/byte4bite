@@ -8,6 +8,12 @@ cookTime: "15 min"
 servings: "2"
 tags: ["beef", "steak", "cast iron", "weeknight"]
 featured: false
+nutrition:
+  calories: 820
+  protein: 68
+  carbs: 1
+  fat: 61
+  sodium: 620
 ---
 
 The best steak you'll ever cook at home isn't complicated — it's disciplined. Dry brine. Screaming hot cast iron. Real butter. Rest. That's it.

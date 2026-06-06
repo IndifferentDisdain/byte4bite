@@ -9,6 +9,13 @@ servings: "8"
 tags: ["pasta", "italian", "meatballs", "tomato sauce", "sunday dinner", "spaghetti"]
 featured: false
 heroImage: ./hero.webp
+nutrition:
+  calories: 700
+  protein: 35
+  carbs: 66
+  fat: 31
+  fiber: 4
+  sodium: 1490
 ---
 
 This is the recipe that started it all. I've been working on it since around 1998, and I'm still tweaking it. It gets more requests from family and friends than anything else I make.

@@ -3,6 +3,15 @@ import BaseLayout from './BaseLayout.astro';
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 
+interface Nutrition {
+  calories: number;
+  protein: number;
+  carbs: number;
+  fat: number;
+  fiber?: number;
+  sodium?: number;
+}
+
 interface Props {
   title: string;
   description: string;
@@ -13,9 +22,10 @@ interface Props {
   servings?: string;
   tags?: string[];
   pubDate: Date;
+  nutrition?: Nutrition;
 }
 
-const { title, description, heroImage, category, prepTime, cookTime, servings, tags, pubDate } = Astro.props;
+const { title, description, heroImage, category, prepTime, cookTime, servings, tags, pubDate, nutrition } = Astro.props;
 
 const formatted = pubDate.toLocaleDateString('en-US', {
   year: 'numeric', month: 'long', day: 'numeric',
@@ -101,6 +111,45 @@ const formatted = pubDate.toLocaleDateString('en-US', {
     ">
       <slot />
     </div>
+
+    <!-- Nutrition -->
+    {nutrition && (
+      <div class="mt-14 border border-b4b-tan p-6">
+        <h2 class="font-ui text-xs tracking-brand uppercase text-b4b-charcoal/50 mb-4 text-center">
+          Nutrition <span class="normal-case">· per serving · estimated</span>
+        </h2>
+        <div class="flex flex-wrap justify-center gap-6">
+          <div class="text-center">
+            <div class="font-display text-2xl text-b4b-charcoal">{nutrition.calories}</div>
+            <div class="font-ui text-xs tracking-widest uppercase text-b4b-charcoal/50 mt-0.5">Calories</div>
+          </div>
+          <div class="text-center">
+            <div class="font-display text-2xl text-b4b-charcoal">{nutrition.protein}g</div>
+            <div class="font-ui text-xs tracking-widest uppercase text-b4b-charcoal/50 mt-0.5">Protein</div>
+          </div>
+          <div class="text-center">
+            <div class="font-display text-2xl text-b4b-charcoal">{nutrition.carbs}g</div>
+            <div class="font-ui text-xs tracking-widest uppercase text-b4b-charcoal/50 mt-0.5">Carbs</div>
+          </div>
+          <div class="text-center">
+            <div class="font-display text-2xl text-b4b-charcoal">{nutrition.fat}g</div>
+            <div class="font-ui text-xs tracking-widest uppercase text-b4b-charcoal/50 mt-0.5">Fat</div>
+          </div>
+          {nutrition.fiber && (
+            <div class="text-center">
+              <div class="font-display text-2xl text-b4b-charcoal">{nutrition.fiber}g</div>
+              <div class="font-ui text-xs tracking-widest uppercase text-b4b-charcoal/50 mt-0.5">Fiber</div>
+            </div>
+          )}
+          {nutrition.sodium && (
+            <div class="text-center">
+              <div class="font-display text-2xl text-b4b-charcoal">{nutrition.sodium}mg</div>
+              <div class="font-ui text-xs tracking-widest uppercase text-b4b-charcoal/50 mt-0.5">Sodium</div>
+            </div>
+          )}
+        </div>
+      </div>
+    )}
 
     <!-- Footer divider -->
     <div class="star-divider mt-14">
