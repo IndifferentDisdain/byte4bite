@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Lora', Georgia, serif;
+    color: #1C1A18;
+    background-color: #F7F4EE;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  ::selection {
+    background-color: #3D5B3C;
+    color: #F7F4EE;
+  }
+}
+
+@layer components {
+  /* Star divider — mirrors the brand motif */
+  .star-divider {
+    @apply flex items-center justify-center gap-4 my-8;
+    color: #3D5B3C;
+  }
+  .star-divider::before,
+  .star-divider::after {
+    content: '';
+    @apply flex-1 border-t border-b4b-tan;
+  }
+
+  /* Spaced-out label style */
+  .eyebrow {
+    @apply font-ui text-xs tracking-brand uppercase text-b4b-green;
+  }
+
+  /* Recipe meta pill */
+  .meta-chip {
+    @apply font-ui text-xs tracking-wide uppercase text-b4b-charcoal/60
+           border border-b4b-tan px-3 py-1 inline-block;
+  }
+
+  /* Tag pill */
+  .tag-pill {
+    @apply font-ui text-xs tracking-wide uppercase text-b4b-green
+           border border-b4b-green/30 px-2.5 py-0.5 inline-block
+           hover:bg-b4b-green hover:text-b4b-cream transition-colors duration-200;
+  }
+}

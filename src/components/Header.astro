@@ -1,0 +1,45 @@
+---
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/recipes', label: 'Recipes' },
+  { href: '/about', label: 'About' },
+];
+
+const pathname = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 bg-b4b-cream border-b border-b4b-tan">
+  <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+
+    <!-- Logo -->
+    <a href="/" class="flex-shrink-0" aria-label="Byte4Bite home">
+      <img
+        src="/images/logo-header.png"
+        alt="Byte4Bite"
+        class="h-10 w-auto"
+        style="mix-blend-mode: multiply;"
+      />
+    </a>
+
+    <!-- Nav -->
+    <nav>
+      <ul class="flex items-center gap-8">
+        {navLinks.map(link => (
+          <li>
+            <a
+              href={link.href}
+              class:list={[
+                'font-ui text-xs tracking-brand uppercase transition-colors duration-200',
+                pathname === link.href
+                  ? 'text-b4b-green border-b border-b4b-green pb-0.5'
+                  : 'text-b4b-charcoal/60 hover:text-b4b-green',
+              ]}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>

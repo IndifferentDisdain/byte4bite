@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RecipeCard from '../components/RecipeCard.astro';
+import { getCollection } from 'astro:content';
+
+const allRecipes = await getCollection('recipes');
+const sorted = allRecipes.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const featured = sorted.filter(r => r.data.featured);
+const recent = sorted.slice(0, 6);
+---
+
+<BaseLayout title="Home" description="Made from scratch. Served with purpose.">
+
+  <!-- Hero -->
+  <section class="bg-b4b-green text-b4b-cream py-24 px-6 text-center">
+    <div class="max-w-2xl mx-auto">
+      <img src="/favicon.png" alt="" class="h-16 w-16 mx-auto mb-6 rounded" />
+      <p class="font-display text-5xl md:text-6xl font-semibold tracking-brand uppercase text-b4b-cream mb-6">
+        Byte4Bite
+      </p>
+      <p class="font-display italic text-xl md:text-2xl text-b4b-cream/70 mb-10 leading-relaxed">
+        Made from scratch. Served with purpose.
+      </p>
+      <div class="flex items-center justify-center gap-3 text-b4b-cream/30 text-xs">
+        <span>✦</span><span>✦</span><span>✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Recipes -->
+  <section class="max-w-5xl mx-auto px-6 py-20">
+    <div class="text-center mb-12">
+      <p class="eyebrow mb-3">From the Kitchen</p>
+      <h2 class="font-display text-4xl md:text-5xl font-semibold text-b4b-charcoal">
+        Latest Recipes
+      </h2>
+    </div>
+
+    {recent.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {recent.map(recipe => (
+          <RecipeCard
+            title={recipe.data.title}
+            description={recipe.data.description}
+            slug={recipe.slug}
+            category={recipe.data.category}
+            prepTime={recipe.data.prepTime}
+            cookTime={recipe.data.cookTime}
+            tags={recipe.data.tags}
+            featured={recipe.data.featured}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-16">
+        <p class="font-body italic text-b4b-charcoal/40 text-lg">Recipes coming soon.</p>
+      </div>
+    )}
+
+    {sorted.length > 6 && (
+      <div class="text-center mt-12">
+        <a
+          href="/recipes"
+          class="font-ui text-xs tracking-brand uppercase text-b4b-green
+                 border border-b4b-green px-8 py-3 hover:bg-b4b-green hover:text-b4b-cream
+                 transition-colors duration-200 inline-block"
+        >
+          View All Recipes
+        </a>
+      </div>
+    )}
+  </section>
+
+  <!-- Divider -->
+  <div class="max-w-5xl mx-auto px-6">
+    <div class="star-divider">
+      <span class="text-b4b-green text-sm">✦ ✦ ✦</span>
+    </div>
+  </div>
+
+  <!-- About teaser -->
+  <section class="max-w-2xl mx-auto px-6 py-20 text-center">
+    <p class="eyebrow mb-4">About This Place</p>
+    <h2 class="font-display text-3xl md:text-4xl font-semibold text-b4b-charcoal mb-6">
+      Cooking Is a Practice
+    </h2>
+    <p class="font-body text-b4b-charcoal/70 leading-relaxed mb-8">
+      Byte4Bite is a record of what gets made and what gets learned — from long smokes and cast-iron weeknights to the kind of food worth making twice. No shortcuts. No filler. Just real recipes that work.
+    </p>
+    <a
+      href="/about"
+      class="font-ui text-xs tracking-brand uppercase text-b4b-green
+             border-b border-b4b-green pb-0.5 hover:text-b4b-green-dk transition-colors"
+    >
+      More About Byte4Bite
+    </a>
+  </section>
+
+</BaseLayout>

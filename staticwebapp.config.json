@@ -1,0 +1,17 @@
+{
+  "routes": [
+    {
+      "route": "/recipes",
+      "rewrite": "/recipes/index.html"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/404.html",
+    "exclude": ["/images/*.{png,jpg,gif,svg}", "/css/*", "/js/*", "/*.{ico,png,svg}"]
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html"
+    }
+  }
+}

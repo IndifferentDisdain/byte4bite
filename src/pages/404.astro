@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page Not Found">
+  <div class="max-w-xl mx-auto px-6 py-32 text-center">
+    <p class="font-display text-8xl font-semibold text-b4b-green opacity-20 mb-4">404</p>
+    <h1 class="font-display text-3xl font-semibold text-b4b-charcoal mb-4">Page Not Found</h1>
+    <p class="font-body italic text-b4b-charcoal/50 mb-10">
+      Looks like this one overcooked.
+    </p>
+    <a
+      href="/"
+      class="font-ui text-xs tracking-brand uppercase text-b4b-green
+             border border-b4b-green px-8 py-3 hover:bg-b4b-green hover:text-b4b-cream
+             transition-colors duration-200 inline-block"
+    >
+      Back to Home
+    </a>
+  </div>
+</BaseLayout>

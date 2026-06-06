@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import RecipeCard from '../../components/RecipeCard.astro';
+import { getCollection } from 'astro:content';
+
+const allRecipes = await getCollection('recipes');
+const sorted = allRecipes.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Collect unique categories
+const categories = [...new Set(sorted.map(r => r.data.category).filter(Boolean))];
+---
+
+<BaseLayout title="Recipes" description="All recipes from Byte4Bite — BBQ, beef, weeknight dinners, and more.">
+
+  <!-- Page header -->
+  <div class="bg-b4b-green text-b4b-cream pt-20 pb-14 px-6 text-center">
+    <div class="max-w-2xl mx-auto">
+      <p class="font-ui text-xs tracking-brand uppercase text-b4b-cream/50 mb-4">The Archive</p>
+      <h1 class="font-display text-5xl md:text-6xl font-semibold">Recipes</h1>
+    </div>
+  </div>
+
+  <div class="max-w-5xl mx-auto px-6 py-16">
+
+    <!-- Category filter (static links for now) -->
+    {categories.length > 1 && (
+      <div class="flex flex-wrap gap-2 mb-10">
+        {categories.map(cat => (
+          <span class="tag-pill cursor-default">{cat}</span>
+        ))}
+      </div>
+    )}
+
+    <!-- Recipe grid -->
+    {sorted.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {sorted.map(recipe => (
+          <RecipeCard
+            title={recipe.data.title}
+            description={recipe.data.description}
+            slug={recipe.slug}
+            category={recipe.data.category}
+            prepTime={recipe.data.prepTime}
+            cookTime={recipe.data.cookTime}
+            tags={recipe.data.tags}
+            featured={recipe.data.featured}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-24">
+        <p class="font-body italic text-b4b-charcoal/40 text-lg">Recipes coming soon.</p>
+      </div>
+    )}
+  </div>
+
+</BaseLayout>

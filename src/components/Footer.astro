@@ -1,0 +1,43 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-b4b-green text-b4b-cream mt-auto">
+  <div class="max-w-5xl mx-auto px-6 py-12">
+    <div class="flex flex-col items-center gap-6">
+
+      <p class="font-display text-xl font-semibold tracking-brand uppercase text-b4b-cream/70">
+        Byte4Bite
+      </p>
+
+      <!-- Nav -->
+      <nav>
+        <ul class="flex items-center gap-6">
+          {[
+            { href: '/', label: 'Home' },
+            { href: '/recipes', label: 'Recipes' },
+            { href: '/about', label: 'About' },
+          ].map(link => (
+            <li>
+              <a
+                href={link.href}
+                class="font-ui text-xs tracking-brand uppercase text-b4b-cream/50 hover:text-b4b-cream transition-colors"
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <!-- Divider stars -->
+      <div class="flex items-center gap-3 text-b4b-cream/30 text-xs">
+        <span>✦</span><span>✦</span><span>✦</span>
+      </div>
+
+      <p class="font-ui text-xs tracking-wide text-b4b-cream/30">
+        © {year} Byte4Bite · Made from scratch.
+      </p>
+    </div>
+  </div>
+</footer>
