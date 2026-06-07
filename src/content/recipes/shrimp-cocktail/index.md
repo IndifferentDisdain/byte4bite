@@ -4,7 +4,7 @@ description: "Shrimp cooked to exactly 140°F in the bath — tender, snappy, an
 pubDate: "2026-06-06"
 category: "Seafood"
 prepTime: "15 min"
-cookTime: "30 min hands-off"
+cookTime: "20 min hands-off"
 servings: "4"
 tags: ["shrimp", "seafood", "appetizer", "steakhouse", "sous vide", "dinner party", "no-cook"]
 featured: false
@@ -32,12 +32,12 @@ The cocktail sauce here is the classic version, built around horseradish rather 
 - 2 tsp olive oil
 
 **For the cocktail sauce**
-- ½ cup ketchup
 - 3 tbsp prepared horseradish (not creamy)
 - 1 tbsp lemon juice
 - 1 tsp Worcestershire sauce
 - ¼ tsp hot sauce
 - Pinch of kosher salt
+- ¼–½ cup ketchup, to taste
 
 **To serve**
 - Lemon wedges
@@ -51,7 +51,7 @@ The cocktail sauce here is the classic version, built around horseradish rather 
 
 2. **Season and bag** — Combine the shrimp, salt, Old Bay, lemon juice, and olive oil in a zip-lock or vacuum bag. Toss to coat. The Old Bay in the bag seasons the shrimp from within — they'll taste seasoned throughout, not just on the outside.
 
-3. **Cook** — Submerge and cook for 30 minutes. The bag will float; weigh it down with a heavy spoon or a small plate if needed. After 30 minutes, the shrimp are done — the bath holds them without overcooking, so there's no urgency to pull them immediately.
+3. **Cook** — Submerge and cook for 20 minutes. The bag will float; weigh it down with a heavy spoon or a small plate if needed. After 20 minutes, the shrimp are done — the bath holds them without overcooking, so there's no urgency to pull them immediately.
 
 4. **Ice bath** — Transfer the shrimp directly to a large bowl of ice water. This stops the carryover and chills them quickly. Leave in the bath 5 minutes. You want them genuinely cold before serving — shrimp cocktail served at fridge temp is not the same dish.
 
@@ -59,7 +59,7 @@ The cocktail sauce here is the classic version, built around horseradish rather 
 
 ### Cocktail Sauce
 
-Combine ketchup, horseradish, lemon juice, Worcestershire, and hot sauce. Stir and taste. The horseradish should hit first — don't hold back. Adjust heat and acid to your preference, then refrigerate until ready to serve. Make it at least 30 minutes ahead; the flavors sharpen as it sits.
+Combine the horseradish, lemon juice, Worcestershire, hot sauce, and salt. Stir, then add ketchup starting with ¼ cup — taste as you go and add more until the balance is where you want it. The horseradish should hit first; the ketchup rounds it out without taking over. Refrigerate until ready to serve. Make it at least 30 minutes ahead; the flavors sharpen as it sits.
 
 ### To Serve
 

@@ -1,6 +1,6 @@
 ---
 title: "Steak Tartare"
-description: "Hand-chopped prime beef, shallots, capers, and cornichons, bound with a raw egg yolk and bright with Dijon and Worcestershire. The cold opener that sets the tone for everything that follows."
+description: "Hand-chopped prime beef, shallots, and capers, bound with a raw egg yolk and bright with Dijon and Worcestershire. The cold opener that sets the tone for everything that follows."
 pubDate: "2026-06-06"
 category: "Beef"
 prepTime: "20 min"
@@ -18,7 +18,7 @@ nutrition:
 
 Steak tartare is a dish that exists entirely in the knife work and the seasoning. There's no heat to bail you out, no sauce to lean on, no technique to hide behind. Every choice you make is in the final plate. That's exactly why it's worth making well.
 
-The cut matters — tenderloin or top sirloin, deeply chilled, hand-chopped rather than ground. A food grinder turns the meat into paste; a sharp knife keeps it as meat. Each small cube retains its texture and a little char potential from the chill, so every bite has substance. The flavor profile is classic: acidic brightness from capers and cornichons, sharpness from shallot, depth from Worcestershire and Dijon, richness from the egg yolk. Nothing exotic, nothing clever — just each element doing its job.
+The cut matters — tenderloin or top sirloin, deeply chilled, hand-chopped rather than ground. A food grinder turns the meat into paste; a sharp knife keeps it as meat. Each small cube retains its texture and a little char potential from the chill, so every bite has substance. The flavor profile is classic: acidic brightness from capers, sharpness from shallot, depth from Worcestershire and Dijon, richness from the egg yolk. Nothing exotic, nothing clever — just each element doing its job.
 
 This scales easily and comes together fast once you have good cold beef. It's a strong first move at a steakhouse-style dinner.
 
